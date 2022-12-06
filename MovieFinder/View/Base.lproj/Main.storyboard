@@ -31,6 +31,9 @@
                                         <color key="backgroundColor" red="0.090196078431372548" green="0.24313725490196078" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" image="magnifyingglass" catalog="system"/>
+                                        <connections>
+                                            <action selector="searchButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iz8-Bi-urh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -61,6 +64,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Movie Finder" id="4IZ-Hu-o4J"/>
                     <connections>
+                        <outlet property="searchImage" destination="QBY-I8-Shd" id="vvD-5y-pBg"/>
+                        <outlet property="searchTextField" destination="Pk2-vb-zRg" id="XaW-PE-zaf"/>
+                        <outlet property="tableView" destination="b2F-Yb-JRE" id="hnc-3C-chu"/>
                         <segue destination="YcV-Dr-SSG" kind="show" identifier="goToDetailsVC" id="em7-H7-9hT"/>
                     </connections>
                 </viewController>

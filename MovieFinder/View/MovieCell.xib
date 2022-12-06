@@ -86,6 +86,12 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieImage" destination="bnz-BP-Ujl" id="9Vq-aG-5Gt"/>
+                <outlet property="movieName" destination="2io-dW-NL8" id="WRx-MR-zP7"/>
+                <outlet property="movieType" destination="MRS-6b-nsl" id="vzw-3Z-77O"/>
+                <outlet property="movieYear" destination="eVQ-7E-1od" id="w6R-FS-xGe"/>
+            </connections>
             <point key="canvasLocation" x="198.47328244274809" y="33.098591549295776"/>
         </tableViewCell>
     </objects>

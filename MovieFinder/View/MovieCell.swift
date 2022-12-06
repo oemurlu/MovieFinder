@@ -2,7 +2,7 @@
 //  MovieCell.swift
 //  MovieApp
 //
-//  Created by Osman Emre Ömürlü on 27.11.2022.
+//  Created by Osman Emre Ömürlü on 5.12.2022.
 //
 
 import UIKit
