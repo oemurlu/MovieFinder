@@ -81,10 +81,10 @@ class SearchViewController: UIViewController {
 
 extension SearchViewController: UITableViewDataSource {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToDetails" {
+        if segue.identifier == "goToDetailsVC" {
             self.title = nil
             let detailsVC = segue.destination as! DetailsViewController
-            // detailsVC.incomingId = selectedMovieId
+             detailsVC.incomingID = selectedMovieId
         }
     }
     
@@ -109,7 +109,7 @@ extension SearchViewController: UITableViewDataSource {
 extension SearchViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedMovieId = moviesArray[indexPath.row].imdbID
-        performSegue(withIdentifier: "goToDetails", sender: self)
+        performSegue(withIdentifier: "goToDetailsVC", sender: self)
     }
 }
 

@@ -201,6 +201,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Details" id="FSp-DL-Rgc"/>
+                    <connections>
+                        <outlet property="movieDirector" destination="AwP-kj-MNa" id="8LU-fb-WIe"/>
+                        <outlet property="movieGenre" destination="ZVh-ri-gDk" id="FWA-Z2-Rpj"/>
+                        <outlet property="movieImage" destination="BAA-fj-92v" id="ZZX-wX-HOX"/>
+                        <outlet property="movieImdbRate" destination="egk-u3-Mde" id="mHG-Yn-b0Q"/>
+                        <outlet property="moviePlot" destination="3B5-io-0Td" id="62q-aE-B4B"/>
+                        <outlet property="movieRuntime" destination="H04-eF-T3j" id="yhm-Nx-Vsc"/>
+                        <outlet property="movieWriter" destination="rHb-nU-Twf" id="PaN-Ly-ABH"/>
+                        <outlet property="movieYear" destination="xL5-EX-gGL" id="mnr-A6-Vdg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zef-bP-kW7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
