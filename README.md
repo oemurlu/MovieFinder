@@ -1,10 +1,16 @@
-# MovieFinder
-This is our weekend project with [drknozan](https://github.com/drknozan). We used [OMDb API](https://omdbapi.com) to search movies and get details. 
+# :movie_camera: MovieFinder
+This is our weekend project with [drknozan](https://github.com/drknozan). 
 
-### Features
+## :magic_wand: Features
+
+> You can search for any movie and see the results based on the search text.
+
+> Display the details about movies like director, runtime, imdb rate, plot etc.
+
 ![](/gif/preview.gif)
 
-You can search for any movie and see the results based on the search text.
+## :hammer: Tools
 
-Display the details about movies like director, runtime, imdb rate, plot etc.
-
+* Xcode
+* [OMDb API](https://omdbapi.com)
+* Swift Package Manager (SDWebImage)
